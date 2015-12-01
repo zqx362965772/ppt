@@ -48,6 +48,16 @@
                         <li class="fragment">避免css Expressions</li>
                         <li class="fragment">css js外联</li>
                         <li class="fragment">减少dns解析，DNS 预加载</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="full-height page-center">
+                <h1 class="sub-page-title">请求优化</h1>
+
+                <div class="content">
+                    <ul class="content-ul">
                         <li class="fragment">最小化js，css</li>
                         <li class="fragment">避免重定向</li>
                         <li class="fragment">提前预知用户操作，缓存ajax</li>
@@ -73,9 +83,6 @@
                             </ul>
                         </li>
                         <li class="fragment">提高网页性能，就是要降低"重排"和"重绘"的频率和成本，尽量少触发重新渲染。</li>
-                        <li class="fragment">一般的网页动画，需要达到每秒30帧到60帧的频率，才能比较流畅(大于60fps会极其流畅)。
-                            每秒60帧(60fps),也就是说每1000ms/60=16.7ms渲染一次页面。
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -86,6 +93,9 @@
 
                 <div class="content">
                     <ul class="content-ul">
+                        <li class="fragment">一般的网页动画，需要达到每秒30帧到60帧的频率，才能比较流畅(大于60fps会极其流畅)。
+                            每秒60帧(60fps),也就是说每1000ms/60=16.7ms渲染一次页面。
+                        </li>
                         <li class="fragment">setInterval的问题
                             <ul>
                                 <li>异步无法准确在16.7ms执行</li>
